@@ -4,6 +4,7 @@
 
 
 .cardGrid {
+    padding-top: 15vh;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -24,6 +25,7 @@
     text-align: center;
     background-color: azure;
     font-size: 2.5vh;
+    font-weight: bold;
 }
 
 .iconCard img{
@@ -34,7 +36,7 @@
 }
 
  /* Responsive layout */
-  @media (min-width: 750px) {
+  @media (min-width: 800px) {
     .cardGrid {
       flex-direction: row;
     }

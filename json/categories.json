@@ -1,0 +1,62 @@
+[
+    {
+        "category": "Artes Circenses",
+        "image": "../img/detective.png",
+        "id": "1"
+    },
+    {
+        "category": "Artes Plásticas",
+        "image": "../img/detective.png",
+        "id": "2"
+    },
+    {
+        "category": "Artesanías",
+        "image": "../img/detective.png",
+        "id": "3"
+    },
+    {
+        "category": "Audiovisual",
+        "image": "../img/detective.png",
+        "id": "4"
+    },
+    {
+        "category": "Bibliotecas",
+        "image": "../img/detective.png",
+        "id": "5"
+    },
+    {
+        "category": "Centros Culturales",
+        "image": "../img/detective.png",
+        "id": "6"
+    },
+    {
+        "category": "Colectivos de Trabajo",
+        "image": "../img/detective.png",
+        "id": "7"
+    },
+    {
+        "category": "Danza",
+        "image": "../img/detective.png",
+        "id": "8"
+    },
+    {
+        "category": "Literatura",
+        "image": "../img/detective.png",
+        "id": "9"
+    },
+    {
+        "category": "Música",
+        "image": "../img/detective.png",
+        "id": "10"
+    },
+    {
+        "category": "Otros",
+        "image": "../img/detective.png",
+        "id": "11"
+    },
+    {
+        "category": "Teatro",
+        "image": "../img/detective.png",
+        "id": "12"
+    }
+]
