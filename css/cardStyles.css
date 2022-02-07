@@ -1,6 +1,8 @@
 .gridItem {
-    padding: 2vh;
+    padding: 5vh;
 }
+
+
 .cardGrid {
     margin: 10px;
     display: flex;
@@ -9,24 +11,26 @@
 }
 
 .card {
-    height: 20vh;
-    width: 20vh;
-    background-color: aquamarine;
+    height: 35vh;
+    width: 25vh;
+    background-image: url(/img/map.jpg);
     border: 2px solid black;
     border-radius: 5%;
 }
 
 .cardDetail {
     margin: auto;
+    height: 25%;
     text-align: center;
     background-color: azure;
+    font-size: 2.5vh;
 }
 
 .iconCard img{
     height: 10vh;
     width: 10vh;
     display: block;
-    margin: auto;
+    margin: 15px auto;
 }
 
  /* Responsive layout */
