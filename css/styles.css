@@ -47,14 +47,16 @@ nav li {
     float: right;
     padding: 5px;
 }
+
 .imagenNav {
     width: 50px;
     height: 50px;
     float: left;
     padding: 5px 15px 5px 55px;
 }
+
 .container {
-    margin: 0 25vh 0 25vh;
+    margin: 0 2vh 0 2vh;
     padding-top: 300px;
 }
 
