@@ -12,11 +12,8 @@ body,
 html {
     margin: 0;
     padding: 0;
-    font-size: 2.5vh;
     color: black;
     font-family:'Montserrat';
-
-
 }
 
 .header {
@@ -56,29 +53,23 @@ nav li {
 }
 
 .container {
-    margin: 0 2vh 0 2vh;
     padding-top: 300px;
 }
 
 .tituloParrafo {
-    font-size: 5vh;
     font-weight: bold;
-
 }
 
 
-@media (min-width: 480px) {
+@media only screen and (min-width: 0px) and (max-width: 500px) {
     .header {
-        font-size: 2.5vh;
+        font-size: 2vh;
     }
 
     body,
     html {
-        font-size: 5vh;
-
-
-
-}
+        font-size: 4vh;
+    }
     a {
         font-size: 2vh;
     }
@@ -86,5 +77,41 @@ nav li {
     .header h1{
         margin: 15px 0px 0px 25px ;
     }
+     .tituloParrafo {
+        font-size: 5vh;
+    } 
+    .container {
+        margin: 0 2vh 0 2vh;
+    }
 }
 
+@media only screen and (min-width: 501px) {
+    .header {
+        font-size: 2vh;
+    }
+
+    body,
+    html {
+        font-size: 3vh;
+    }
+    a {
+        font-size: 2vh;
+    }
+    
+    .header h1{
+        margin: 15px 0px 0px 25px ;
+    }
+    .tituloParrafo {
+        font-size: 5vh;
+    } 
+    .container {
+        margin: 0 4vh 0 4vh;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+
+    .container {
+        margin: 0 10vh 0 10vh;
+    }
+}
