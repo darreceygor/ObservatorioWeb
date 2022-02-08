@@ -1,22 +1,22 @@
 [
     {
         "category": "Artes Circenses",
-        "image": "/img/detective.png",
+        "image": "img/detective.png",
         "id": "1"
     },
     {
         "category": "Artes Plásticas",
-        "image": "/img/detective.png",
+        "image": "img/detective.png",
         "id": "2"
     },
     {
         "category": "Artesanías",
-        "image": "../img/detective.png",
+        "image": "/img/detective.png",
         "id": "3"
     },
     {
         "category": "Audiovisual",
-        "image": "../img/detective.png",
+        "image": "/img/detective.png",
         "id": "4"
     },
     {
