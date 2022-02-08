@@ -1,7 +1,7 @@
 window.onload = traerCategories();
 
 async function traerCategories(){
-    await fetch('/json/categories.json') /*toma la direccion del arhivo json a tratar*/
+    await fetch('../json/categories.json') /*toma la direccion del arhivo json a tratar*/
     .then(res => res.json()) /*traemos el archivo y lo transformamos a objeto json*/
     .then(datosCategories =>{   /*traemos los datos para procesar*/
         let cardGrid = document.getElementById("cardGrid");
