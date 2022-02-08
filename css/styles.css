@@ -67,9 +67,9 @@ nav li {
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 480px) {
     .header {
-        font-size: 1.5vh;
+        font-size: 2.5vh;
     }
 
     a {
@@ -81,83 +81,3 @@ nav li {
     }
 }
 
-
-
-/*
-.header {
-    position: fixed;
-    border-top: 1px solid white;
-    
-    background-image: url(/img/map.jpg);
-    color: #333;
-    height: 250px;
-    width: 100%;
-    font-family: 'Lobster', cursive;
-    text-align: center;
-}
-
-.menu ul {
-    margin-top: 250px;
-    width: 100%;
-    position: fixed;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-    background-color: burlywood;
-  }
-  
-p {
-    padding: 0;
-    font-size: 3vh;
-    font-weight: bold;
-}
-  
-.menu { 
-    height:80px; 
-    width:100%; 
-    background:#333; 
-    color:white; 
-    text-align:center
-}
-
-.imagenNav {
-    height: 15px;
-    width: 15px;
-    float: left;
-}
-
-.menu ul li {
-    padding: 15px 10px;
-    float: right;
-}
-
-.menu ul li a {
-    
-    font-size: 2vh ;
-
-}
-
-.wrapper {
-    height: 2000px;
-    width: 100%;
-    padding-top: 100px;
-} 
-
-.fixed {
-    position: fixed;
-    top: 0;
-}
-
-
-@media (min-width: 750px) {
-    .container {
-        margin: 0 0 20vh 20vh;
-    }
-
-    p {
-        padding: 0 15vh 0 25vh;
-        font-size: 3vh;
-    }
-} */
