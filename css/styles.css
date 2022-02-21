@@ -19,102 +19,46 @@ html {
 .header {
     width: 100%;
     height: 150px;
-    position: fixed;
     text-align: left;
     background-color:black ;
     color: white;
     font-style: italic;
 }
 
-.header h1{
-    margin: 15px 0px 0px 25px ;
+.header h1 {
+    text-align: center;
+    font-size: 40px;
 }
-
-nav {
-    margin-top: 100px;
+.menu {
     width: 100%;
-    height: auto;
-    position: fixed;
-    color: black;
-    font-weight: bold;
-    background-color:rgb(148, 148, 148) ;
-}
+    height: 75px;
+    background-color: dimgray;
 
-nav li {
-    float: right;
-    padding: 5px;
 }
 
 .imagenNav {
-    width: 50px;
-    height: 50px;
-    float: left;
-    padding: 5px 15px 5px 55px;
+    width: 25px;
+    height: 25px;
+    margin: 25px 0 0 25px;
+    
+}
+
+
+ul {
+
+    display: inline-block;
+}
+ul li {
+    display: inline;
 }
 
 .container {
-    padding-top: 300px;
+    margin-top: 100px;
+    margin-left: 25px;
+
 }
 
-.tituloParrafo {
-    font-weight: bold;
-}
-
-
-@media only screen and (min-width: 0px) and (max-width: 500px) {
-    .header {
-        font-size: 2vh;
-    }
-
-    body,
-    html {
-        font-size: 3vh;
-    }
-    a {
-        font-size: 2vh;
-    }
-    
-    .header h1{
-        margin: 15px 0px 0px 25px ;
-    }
-     .tituloParrafo {
-        font-size: 5vh;
-    } 
-    .container {
-        margin: 0 2vh 0 2vh;
-    }
-}
-
-@media only screen and (min-width: 501px) {
-    .header {
-        font-size: 2vh;
-    }
-
-    body,
-    html {
-        font-size: 3vh;
-    }
-    a {
-        font-size: 2vh;
-    }
-    
-    .header h1{
-        margin: 15px 0px 0px 25px ;
-    }
-    .tituloParrafo {
-        font-size: 5vh;
-    } 
-    .container {
-        margin: 0 4vh 0 4vh;
-    }
-}
-
-@media only screen and (min-width: 960px) {
-    body,
-    html {
-        font-size: 2.5vh;
-    }
-    .container {
-        margin: 0 10vh 0 10vh;
-    }
+p {
+    margin-right: 25px;
+    font-size: 25px;
 }
